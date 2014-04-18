@@ -1,0 +1,23 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+@import 'sass-bootstrap/lib/bootstrap';
+
+#gameboard {
+  display: table;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+
+.tile {
+  display: table-cell;
+  background: #fff;
+  border: 1px solid #aaa;
+  float: left;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .container {
+        width: 500px;
+    }
+}
