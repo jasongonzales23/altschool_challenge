@@ -57,7 +57,6 @@ generateTileBoard = (el, tilesWide, tilesHigh) ->
       @tile.style.height = "#{@tileWidth}px"
       @tile.addEventListener "click", handleTileClick, false
 
-  console.log tilesArr
   whitenizer = document.getElementById('whitenizer')
   whitenizer.addEventListener "click", (->
      whitenize tilesWide, tilesHigh
